@@ -4,6 +4,7 @@ import java.util.Map;
 public class ProbabilityCalculator {
     private final Map<String, Double> jointProbabilities;
     private final Map<Character, Double> marginalProbabilities;
+    private double totalProbs;
 
     public ProbabilityCalculator() {
         jointProbabilities = new HashMap<>();
@@ -15,6 +16,11 @@ public class ProbabilityCalculator {
         for (char c : event.toCharArray()) {
             marginalProbabilities.put(c, marginalProbabilities.getOrDefault(c, 0.0) + probability);
         }
+        totalProbs += probability /2;
+    }
+
+    public double getTotalProbs() {
+        return totalProbs;
     }
 
     public double getMarginalProbability(char event) {
@@ -22,6 +28,7 @@ public class ProbabilityCalculator {
     }
 
     public double getJointProbability(String event) {
+        int omega = event.length();
         return jointProbabilities.getOrDefault(event, 0.0);
     }
 
