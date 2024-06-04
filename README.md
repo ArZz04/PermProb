@@ -1,4 +1,4 @@
-# Programa Java para Calcular Permutaciones y Probabilidades
+# Permutaciones y Probabilidades
 Juan Arvizu | ISC | Probability & Stats II | J. Antonio Aviña
 
 ## Descripción
