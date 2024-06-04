@@ -1,3 +1,23 @@
+# Programa Java para Calcular Permutaciones y Probabilidades
+# Juan Arvizu Probability & Stats II
+
+## Descripción
+Implementar un programa Orientado a Objetos en Java para calcular las permutaciones de un arreglo de caracteres alfabéticos predefinido, así como las probabilidades marginal, conjunta y condicional. Tanto el arreglo de caracteres por permutar como los DataSets para el cálculo de probabilidades se inicializan desde el código fuente y no se capturan.
+
+## Funcionalidades
+- Calcular todas las permutaciones (combinaciones distintas) entre los caracteres del arreglo.
+- Calcular las probabilidades marginal, conjunta y condicional utilizando los DataSets proporcionados.
+
+## Salida del Programa
+El programa imprimirá en pantalla:
+- Todas las permutaciones entre los caracteres del arreglo.
+- El cálculo de las probabilidades marginal, conjunta y condicional.
+
+## Anexos
+Los DataSets necesarios para el cálculo de probabilidades se encontrarán disponibles en Google Classroom.
+
+
+
 # Probabilidad Marginal, Conjunta y Condicional
 
 Durante 18 días se registró por la mañana si estaba o no nublado y por la tarde si llovía o no.
