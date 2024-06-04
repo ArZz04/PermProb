@@ -1,6 +1,6 @@
 # Programa Java para Calcular Permutaciones y Probabilidades
-- Juan Arvizu | ISC
-- Probability & Stats II
+Juan Arvizu | ISC
+Probability & Stats II
 
 ## Descripción
 Implementar un programa Orientado a Objetos en Java para calcular las permutaciones de un arreglo de caracteres alfabéticos predefinido, así como las probabilidades marginal, conjunta y condicional. Tanto el arreglo de caracteres por permutar como los DataSets para el cálculo de probabilidades se inicializan desde el código fuente y no se capturan.
