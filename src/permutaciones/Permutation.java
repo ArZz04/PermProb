@@ -1,10 +1,12 @@
+package permutaciones;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class PermutationCalculate {
+public class Permutation {
     private final List<String> permutations;
 
-    public PermutationCalculate(char[] characters) {
+    public Permutation(char[] characters) {
         this.permutations = new ArrayList<>();
         generatePermutations("", characters);
     }
@@ -33,5 +35,17 @@ public class PermutationCalculate {
 
     public List<String> getPermutations() {
         return permutations;
+    }
+
+    public void showPermutations() {
+        // Imprimir las permutaciones
+        int count = 0;
+
+        for (String perm : permutations) {
+            System.out.println(count + 1 + ". " + perm);
+            count++;
+        }
+
+        System.out.println("Cantidad de Permutaciones: " + count);
     }
 }
