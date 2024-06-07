@@ -19,14 +19,6 @@ public class Joint {
         }
     }
 
-    public double getTotalProbs() {
-        return totalProbs;
-    }
-
-    public double getJointProbability(String event) {
-        return jointProbabilities.getOrDefault(event, 0.0);
-    }
-
     public void addJointProbability(String event, double probsTotal) {
         jointProbabilities.put(event, probsTotal);
     }
